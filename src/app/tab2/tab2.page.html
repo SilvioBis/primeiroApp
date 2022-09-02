@@ -1,17 +1,84 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Bebidas
     </ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-header collapse="condense">
+</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="nude" [fullscreen]="true">
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col size="6">
+        <ion-card color="danger">
+          <img src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/intellibrand_000000000000953371-UN_1.webp" alt="coca colca">
+          <ion-card-header>
+            <ion-item-title>Refrigerante Coca-Cola 220ml</ion-item-title>
+          </ion-card-header>
+
+          <ion-item >
+            R$5,00
+            <ion-badge slot="end">
+              <ion-icon name="cart-outline"></ion-icon>
+            </ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card color="roxo">
+          <img src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/4685.webp" alt="Fanta">
+          <ion-card-header>
+            <ion-item-title>Refrigerante Sabor Uva Fanta 220ml</ion-item-title>
+          </ion-card-header>
+
+          <ion-item>
+            R$4,00
+            <ion-badge slot="end">
+              <ion-icon name="cart-outline"></ion-icon>
+            </ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card color="verdelimao">
+          <img src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/intellibrand_000000000000953361-UN_1.webp" alt="Refrigerante Sabor Limão Sprite 220ml">
+          <ion-card-header>
+            <ion-item-title>Refrigerante Sabor Limão Sprite 220ml</ion-item-title>
+          </ion-card-header>
+
+          <ion-item>
+            R$4,50
+            <ion-badge slot="end">
+              <ion-icon name="cart-outline"></ion-icon>
+            </ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card color="laranja">
+          <img src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/987193.webp" alt="Suco de Laranja Natural One 2L">
+          <ion-card-header>
+            <ion-item-title>Suco de Laranja Natural One 2L</ion-item-title>
+          </ion-card-header>
+
+          <ion-item>
+            R$10,00
+            <ion-badge slot="end">
+              <ion-icon name="cart-outline"></ion-icon>
+            </ion-badge>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+
+
+
+    </ion-row>
+
+  </ion-grid>

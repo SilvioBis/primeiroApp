@@ -3,48 +3,70 @@
     <ion-buttons slot="start">  
     </ion-buttons>
     <ion-title>Cardápio</ion-title>
-    <ion-button slot="end">
-      <ion-icon slot="start" name="star"></ion-icon>
-     Botão      
-    </ion-button>     
+    <ion-chip color="medium" slot="end">
+      <ion-avatar >
+        <img alt="Silhouette of a person's head" src="https://i0.wp.com/www.cssscript.com/wp-content/uploads/2020/12/Customizable-SVG-Avatar-Generator-In-JavaScript-Avataaars.js.png?fit=438%2C408&ssl=1"/>
+      </ion-avatar>
+      <ion-label color="nude" >Cliente</ion-label>
+    </ion-chip>
   </ion-toolbar> 
 
 
-<ion-content [fullscreen]="true">
+<ion-content color="nude" [fullscreen]="true"> 
   <ion-header collapse="condense">   
   </ion-header>
-  <ion-searchbar color="danger"></ion-searchbar>
+  <ion-searchbar placeholder="Buscar" color="nude"></ion-searchbar>
   
-  <ion-list>
-    <ion-item>
+  <ion-list >
+    <ion-item color="medium">
       <ion-thumbnail slot="start">
         <img src="https://cache.dominos.com/olo/6_91_3/assets/build/market/BR/_pt/images/img/products/larges/S_PIZCLB.jpg">
       </ion-thumbnail>
-      <ion-label>Calabresa</ion-label>
+      <ion-label>Calabresa</ion-label>      
+        R$4,50
+        <ion-badge color="danger" slot="end">
+          <ion-icon name="cart-outline"></ion-icon>
+        </ion-badge>      
     </ion-item>
-    <ion-item>
+    <ion-item color="medium">
       <ion-thumbnail slot="start">
         <img src="https://cache.dominos.com/olo/6_91_3/assets/build/market/BR/_pt/images/img/products/larges/S_PIZFR.jpg">
       </ion-thumbnail>
       <ion-label>Frango com Requeijão</ion-label>
+      R$4,50
+        <ion-badge color="danger" slot="end">
+          <ion-icon name="cart-outline"></ion-icon>
+        </ion-badge> 
     </ion-item>
     <ion-item>
       <ion-thumbnail slot="start">
         <img src="https://cache.dominos.com/olo/6_91_3/assets/build/market/BR/_pt/images/img/products/larges/S_PIZCRBK.jpg">
       </ion-thumbnail>
       <ion-label>Corn Bacon</ion-label>
+      R$4,50
+        <ion-badge color="danger" slot="end">
+          <ion-icon name="cart-outline"></ion-icon>
+        </ion-badge> 
     </ion-item>
     <ion-item>
       <ion-thumbnail slot="start">
         <img src="https://cache.dominos.com/olo/6_91_3/assets/build/market/BR/_pt/images/img/products/larges/S_PIZPEP.jpg">
       </ion-thumbnail>
       <ion-label>Peperoni</ion-label>
+      R$4,50
+        <ion-badge color="danger" slot="end">
+          <ion-icon name="cart-outline"></ion-icon>
+        </ion-badge> 
     </ion-item>
     <ion-item>
       <ion-thumbnail slot="start">
         <img src="https://cache.dominos.com/olo/6_91_3/assets/build/market/BR/_pt/images/img/products/larges/S_PIZEGK.jpg">
       </ion-thumbnail>
       <ion-label>Egg & Bacon</ion-label>
+      R$4,50
+        <ion-badge color="danger" slot="end">
+          <ion-icon name="cart-outline"></ion-icon>
+        </ion-badge> 
     </ion-item>
   </ion-list>
   

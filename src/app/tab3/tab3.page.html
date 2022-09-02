@@ -1,17 +1,50 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="nude">
     <ion-title>
-      Tab 3
+      Pedidos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="nude" [fullscreen]="true">
+  <ion-list>
+    <ion-item color="medium">
+      <ion-thumbnail slot="start">
+        <img
+          src="https://cache.dominos.com/olo/6_91_3/assets/build/market/BR/_pt/images/img/products/larges/S_PIZCLB.jpg">
+      </ion-thumbnail>
+      <ion-label>Calabresa</ion-label>
+      R$4,50
+      <ion-badge color="danger" slot="end">
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+      </ion-badge>
+    </ion-item>
+
+    <ion-item color="medium">
+      <ion-thumbnail slot="start">
+        <img src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/intellibrand_000000000000953371-UN_1.webp">
+      </ion-thumbnail>
+      <ion-label>Refri Coca-Cola 220ml</ion-label>
+      R$4,00
+      <ion-badge color="danger" slot="end">
+
+      </ion-badge>
+    </ion-item>
+
+    <ion-item color="medium">
+      <ion-thumbnail slot="start">
+        <img src="https://d3gdr9n5lqb5z7.cloudfront.net/fotos/4685.webp">
+      </ion-thumbnail>
+      <ion-label>Refri Sabor Uva Fanta 220ml</ion-label>
+      R$5,00
+      <ion-badge color="danger" slot="end">
+
+      </ion-badge>
+    </ion-item>
+
+
+  </ion-list>
+
+
+
 </ion-content>
